@@ -1,0 +1,2 @@
+# trust
+Trust Wallet Estudos
