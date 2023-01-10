@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/* HEADER */
+.header{
+    background-color: var(---primary);
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+}
+
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header .container .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .navbar .list{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header .container .navbar .list li a span{
+    background-color: var(---white);
+    color: var(---primary);
+    font-size: 1.4rem;
+    border-radius: 6px;
+    padding: 0.5rem 0.6rem;
+    margin-left: 1rem;
+}
+
+.header .container .navbar .list li a {
+    color: var(---white);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: var(---white);
+    transition: all 0.3s ease-in-out;
+}
+/* SECTION HERO */
+
+.se-hero{
+    padding: 12rem 0;
+    background-color: var(---primary);    
+}
+
+.se-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se-hero .container .content{
+    width: 100%;
+    max-width: 52rem;
+}
+
+.se-hero .container .content h1{
+    font-size: 4.8rem;
+    color: var(---white);
+    margin-bottom: 2.7rem;
+}
+
+.se-hero .container .content p{
+    font-size: 2.1rem;
+    color: var(---white);
+    margin-bottom: 2.2rem;
+}
+
+.se-hero .container .content .download{
+    width: 100%;
+    max-width: 52rem;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    display: flex;
+}
+
+.se-hero .container .content .download img{
+    cursor: pointer;
+}
+
+.se-hero .container .image-hero{
+    width: 100%;
+    max-width: 49rem;
+    
+}
+
+/* SECTION ABOUT */
+
+.about-trust{
+    padding: 8rem 0;
+}
+
+.about-trust .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-trust .top .img-card{
+    display: flex;
+    gap: 1.6rem;
+}
+.about-trust .top .img-card p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.uil-check-circle:before {
+    content: '\e9c2';
+    color: green;
+    font-size: 4rem;
+}
+
+.about-trust .content{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.about-trust .content h1{
+    font-weight: 600;
+    font-size: 4.6rem;
+}
+
+.about-trust .content p{
+    font-weight: 600;
+    color: var(---text);
+    font-size: 2.1rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.about-trust .content .verifi{
+    display: flex;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-trust .content .verifi .card-checked{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.about-trust .content .btn{
+    margin-top: 6rem;
+}
+
+/* SECTION BUY-CRYPTO */
+
+.buy-crypto{
+    padding: 10rem 0;
+}
+
+.buy-crypto .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buy-crypto .container .content{
+    width: 100%;
+    max-width: 43.4rem;
+}
+
+.buy-crypto .container .content h1{
+    margin-bottom: 2.5rem;
+}
+
+.buy-crypto .container .content p{
+    margin-bottom: 2.5rem;
+}
+
+/* SECTION NFTS */
+
+.nfts{
+    padding: 10rem 0;
+}
+
+.nfts .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nfts .container .img{
+    width: 100%;
+    max-width: 60rem;
+}
+
+.nfts .container .img img{
+    width: 100%;
+    max-width: 60rem;
+    border-radius: 5rem;
+}
+
+.nfts .container .content{
+    width: 100%;
+    max-width: 50rem;
+}
+
+.nfts .container .content h1{
+    color: var(---text);
+    margin-bottom: 2rem;
+}
+
+.nfts .container .content p{
+    font-size: 1.8rem;
+    width: 100%;
+}
+
+/* SECTION EXCHANGE */
+
+.exchange{
+    padding: 4rem 0;
+}
+
+.exchange .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exchange .container .content{
+    width: 100%;
+    max-width: 43.3rem;
+}
+
+.exchange .container .content h1{
+    font-size: 4.3rem;
+    margin-bottom: 2.7rem;
+}
+
+.exchange .container .content p{
+    font-size: 2.1rem;
+}
+
+/* SECTION PRIVATE */
+
+
+.private{
+    padding: 4rem 0;
+}
+
+.private .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.private .container .content{
+    width: 100%;
+    max-width: 43.3rem;
+}
+
+.exchange .container .content h1{
+    font-size: 4.3rem;
+    margin-bottom: 2.7rem;
+}
+
+.private .container .content p{
+    font-size: 2.1rem;
+}
+
+
+/* SECTION D-APPS */
+
+
+.d-apps{
+    padding: 4rem 0;
+}
+
+.d-apps .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-apps .container .content{
+    width: 100%;
+    max-width: 43.3rem;
+}
+
+.d-apps .container .content h1{
+    font-size: 4.3rem;
+    margin-bottom: 2.7rem;
+}
+
+.d-apps .container .content p{
+    font-size: 2.1rem;
+}
+
+
+.footer{
+    padding: 10rem 0;
+    width: 100%;
+    background-color: var(---primary);
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .container .area-left{
+    width: 100%;
+    max-width: 35rem;
+}
+
+.footer .container .area-left img{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.footer .container .area-left p{
+    color: var(---white);
+    font-size: 1.1rem;
+}
+
+.footer .container .main{
+    display: flex;
+    align-items: center;
+}
+

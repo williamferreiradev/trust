@@ -1,0 +1,197 @@
+@media (max-width: 1200px){
+    
+    html{
+        font-size: 55%;
+    }
+
+    .about-trust .content h1{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    
+    .about-trust .content p{
+        font-weight: 600;
+        color: var(---text);
+        font-size: 1.9rem;
+        margin-top: 2.7rem;
+        margin-bottom: 2.5rem;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .hamburger{
+        display: block;
+    }
+
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .list {
+        position: fixed;
+        padding-top: 7rem;
+        left: -100%;
+        top: 70px;
+        background-color: #05050579;
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        width: 100%;
+        transition: 0.3s;
+        flex-direction: column;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .list li a{  
+        font-size: 2.5rem;
+    }
+
+    .list.active {
+        left: 0;
+    }
+
+    .list.close {
+        visibility: hidden;
+    }
+
+
+    .se-hero .container{
+        flex-direction: column;
+    }
+
+    .se-hero .container .content{
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .se-hero .container .content .download{
+        margin-top: 10rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .about-trust .container .content .verifi{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-trust .container .content .verifi .left{
+        margin-right: 2.2rem;
+    }
+
+    .about-trust .container .content .verifi .card-checked{
+        gap: 1rem;
+    }
+
+    .about-trust .container .content .verifi .card-checked img{
+        width: 5rem;
+    }
+
+    .about-trust .container .top{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .about-trust .container .top p{
+        font-size: 2.5rem;
+    }
+
+
+    .buy-crypto .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .buy-crypto .container .content{
+        text-align: center;
+    }
+
+    .buy-crypto .container .content p{
+        margin-bottom: 5rem;
+    }
+
+    .buy-crypto .container .content .btn{
+        margin-bottom: 2.5rem;
+    }
+
+
+    .exchange .container{
+        flex-direction: column;
+    }
+
+    .exchange .container .content{
+        text-align: center;
+    }
+
+
+    .private .container{
+        flex-direction: column-reverse;
+    }
+
+    .private .container .content{
+        text-align: center;
+    }
+
+    .nfts .container{
+        flex-direction: column;
+    }
+
+    .nfts .container .content{
+        text-align: center;
+    }
+
+    .d-apps .container{
+        flex-direction: column;
+    }
+
+    .nfts .container .img img{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15rem;
+    }
+
+    
+
+    .d-apps .container .content{
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .footer .container{
+        flex-direction: column;
+    }
+
+    .footer .container .area-left{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 488px){
+    html{
+        font-size: 45%;
+    }
+
+    .about-trust .content .verifi .card-checked {
+        width: 100%;
+    }
+
+    .about-trust .content .verifi .card-checked p{
+        font-weight: 600;
+        font-size: 2rem;
+    }
+
+}
